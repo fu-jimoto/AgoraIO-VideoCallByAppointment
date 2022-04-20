@@ -1,0 +1,62 @@
+.banner {
+  padding: 0;
+  background-color: #52575c;
+  color: white;
+}
+
+.banner-text {
+  padding: 8px 20px;
+  margin: 0;
+}
+
+
+#join-form {
+  margin-top: 10px;
+}
+
+.tips {
+  font-size: 12px;
+  margin-bottom: 2px;
+  color: gray;
+}
+
+.join-info-text {
+  margin-bottom: 2px;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 2px;
+}
+
+.remote-player {
+  position:  absolute;
+  width: 100vw;
+  height: 100vh;
+}
+
+.local-player {
+  position:  absolute;
+  width: 20vw;
+  height: 20vh;
+  right: 0;
+}
+
+
+.player-name {
+  margin: 8px 0;
+}
+
+#success-alert, #success-alert-with-token {
+  display: none;
+}
+
+
+
+footer{
+  /*footerの装飾*/
+  position:  fixed;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+}
